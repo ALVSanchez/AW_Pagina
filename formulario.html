@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es" class="curriculum"> <!--Así puedo hacer que se vean algunas cosas diferentes en ésta página.-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página principal</title>
+</head>
+<body>
+
+    <div class="siteContainer">
+
+        <header class="mainHeader" id="MainHeader">
+                <a href="index.html" class="headerElement">
+                    Página principal
+                </a>
+                
+                <a href="curriculum.html" class="headerElement">
+                    Currículum
+                </a>
+
+                <a href="formulario.html" class="headerElement">
+                    Formulario
+                </a>
+
+                <a href="documentacion.html" class="headerElement">
+                    Sobre el proyecto
+                </a>
+        </header>
+        <div class="pageContainer">
+            <div class="content full">
+                
+                <h2>Formulario</h2>
+                <form class="formulario">
+                    <div class="formContainer">
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <br>
+                            <input type="text" id="nombre" name="nombre">
+                            <br>
+                            <label for="apellidos">Apellidos:</label>
+                            <br>
+                            <input type="text" id="apellidos" name="apellidos">
+        
+                            <p>Sexo:</p>
+                            <input type="radio" id="hombre" name="sexo">
+                            <label for="hombre">Hombre</label><br>
+                            <input type="radio" id="mujer" name="sexo">
+                            <label for="mujer">Mujer</label><br>
+                            <input type="radio" id="otros" name="sexo">
+                            <label for="otros">Otros</label><br>        
+                        </div>
+                        <div>
+                            <label for="nacimiento">Fecha de nacimiento</label>
+                            <br>
+                            <input type="date" id="nacimiento" name="nacimiento">
+                            <br>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" placeholder="usuario@ejemplo.com">
+                            <br>
+                            <label for="sitio web">Sitio web</label>
+                            <br>
+                            <input type="url" id="sitioWeb" name="sitioWeb" placeholder="www.ejemplo.com">
+                            
+                            <p>¿Qué dispositivos electrónicos tiene?</p>
+                            <input type="checkbox" id="smartphone" name="disp">
+                            <label for="smartphone">Teléfono inteligente</label>
+                            <br>
+                            <input type="checkbox" id="desktop" name="disp">
+                            <label for="desktop">Ordenador de sobremesa</label>
+                            <br>
+                            <input type="checkbox" id="laptop" name="disp">
+                            <label for="laptop">Ordenador portátil</label>
+                            
+                        </div>
+                        <div>
+                            <label for="laptop">Color favorito (Obligatorio)</label>
+                            <br>
+                            <input type="color" id="color" name="color">
+                            <br>
+                            <label for="phone">Número de teléfono</label>
+                            <br>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <label for="submit" class="centeredElement">Enviar</label>
+                    <input type="submit" id="submit" name="submit" class="centeredElement">
+                    <br>
+                    <label for="reset" class="centeredElement">Reiniciar</label>
+                    <input type="reset" id="reset" name="reset" class="centeredElement">
+
+                  </form>
+                <!---->
+
+                <footer class="mainFooter">
+                    Página creada por Álvaro López
+                </footer>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

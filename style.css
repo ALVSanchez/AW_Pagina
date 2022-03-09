@@ -1,0 +1,186 @@
+
+body,html
+{
+    margin:0;
+}
+
+@keyframes anim{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
+
+h1{
+    animation: anim 1s ease-in-out;
+}
+
+.mainHeader{
+    background-color:orangered;
+    font-size:2vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.headerElement{
+    flex:1 1;
+    text-align:center;
+    border:1px solid black;
+}
+
+.pageContainer{
+    display:flex;
+    flex-direction:row;
+}
+
+
+.leftNav{
+    float: left;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    background-color:lightseagreen;
+    justify-content:flex-start;
+    gap:3vh;
+    align-items:stretch;
+    font-size:2vw;
+}
+.navElement{
+    border-radius: 3px;
+    border:3px solid;
+    margin: 0 0.5vw;
+    padding: 1vh 0;
+    background-color:lightgray;
+}
+.navElement:visited{
+    color:black;
+}
+
+.siteContainer{
+    margin: 0 auto;
+    width:75%
+}
+
+.centered{
+    text-align: center;
+}
+
+.content{
+    flex-grow:1;
+    background-color:rgb(216, 216, 216)
+}
+
+.mainFooter{
+    background-color:black;
+    color:white;
+}
+.fullWidth{
+    width:100%;
+}
+.threeColumns{
+    width:33.3333%;
+    border:1px dotted black;
+}
+.twoColumns{
+    width:50%;
+    font-size:1.5vw;
+    text-align:bottom;
+}
+.curriculum .twoColumns{
+    width:50%;
+    font-size:1.25vw;
+}
+
+.tablaCurriculum tr>td{
+    border:1px solid black;
+}
+
+.twoColumns>img{
+width:100%;
+}
+
+.discord{
+    width:5em
+}
+.aplicacion{
+    margin: auto 0;
+    vertical-align:middle;
+}
+
+.content>*{
+    margin:5vh 0;
+}
+.content>*{
+    margin:5vh 0;
+}
+
+*:link{
+    text-decoration:none;
+    color:black;
+}
+
+.sobreMi{
+    height:25vh;
+    font-size: 2vw;
+}
+
+footer.mainFooter{
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+
+.leftCell{
+    background-color:rgb(115, 155, 192);
+}
+
+.curriculum .content>*{
+    margin:0;
+}
+.rightCell{
+    text-align: left;
+    width:100%;
+}
+
+.video{
+    width:50%;
+    margin:0 auto;
+    display:table-cell
+}
+
+.formulario{
+    width:100%;
+    height:100%;
+}
+
+.formContainer{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:100%;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+}
+
+.formContainer>*{
+    
+}
+.content.full{
+    width:100%;
+    height:100%;
+}
+
+.centeredElement{
+    margin: 0 auto;
+}
+
+ul>li>p{
+    margin-left:1vw;
+    margin-top:1vh;
+    margin-bottom:1vh;
+}
+
+
+.videoDocumentacion{
+    width:100%;
+}

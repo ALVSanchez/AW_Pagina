@@ -42,7 +42,6 @@ h1{
     background-color:lightseagreen;
     justify-content:flex-start;
     gap:3vh;
-    align-items:stretch;
     font-size:2vw;
 }
 .navElement{
@@ -185,7 +184,6 @@ ul>li>p{
     margin-bottom:1vh;
 }
 
-
-.videoDocumentacion{
+.youtube{
     width:100%;
 }

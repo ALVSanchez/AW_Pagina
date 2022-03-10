@@ -11,6 +11,7 @@ body,html
 
 h1{
     animation: anim 1s ease-in-out;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .mainHeader{
@@ -88,6 +89,10 @@ h1{
 .curriculum .twoColumns{
     width:50%;
     font-size:1.25vw;
+}
+
+table{
+    border-collapse: collapse;
 }
 
 .tablaCurriculum tr>td{
